@@ -23,9 +23,9 @@
 	/* inlining CSS for speed */ 
 	body { font: 16px helvetica,sans-serif; }
 	h1, h2 {font: 33px monospace, sans-serif;}
-	#nav {display: flex;}
-	ul {list-style-type: none; }
-	ul li {padding: 0 10px 0 0}
+	nav, #nav {display: flex;}
+	nav, ul {list-style-type: none; }
+	nav, {padding: 0 10px 0 0}
 	p {line-height: 22px; padding-bottom: 15px;}
 	#main {width: 1064px; margin: 30px auto; }
 	.role-desc {margin: 5px 30px;}
@@ -58,12 +58,16 @@ Interesting. You looked at my code. Well its not my best but it got the job done
  	<li>TWITTER: <a href="https://twitter.com/brentgrainger"> https://twitter.com/brentgrainger</a></li>
  </ul>
 
-<ul id="nav">
+<nav id="nav">
+	<ul>
 	<li><a href="#work">Work</a></li>
 	<li><a href="#projects">Projects</a></li>
 	<li><a href="#about">About me</a></li>
 	<li><a href="#contact">Contact me</a></li>
-</ul>
+	</ul>
+</nav>
+
+
 <a name="work"></a>
 <h2>work</h2>
 
